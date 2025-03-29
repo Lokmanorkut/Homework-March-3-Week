@@ -25,3 +25,6 @@
 
     `ALTER TABLE Students ALTER COLUMN address DROP NOT NULL;`
 
+  * 3.Sütunun Adını Değiştirme:
+    `ALTER TABLE tablo_adi RENAME COLUMN eski_sutun_adı TO yeni_sutun_adı;`
+
