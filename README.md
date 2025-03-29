@@ -18,5 +18,10 @@
     `ALTER TABLE musteriler ADD dogum_tarihi DATE;`
 
     Örnekler:
+    
     `ALTER TABLE musteriler MODIFY dogum_tarihi VARCHAR(10);`
     
+    `ALTER TABLE Students ALTER COLUMN address SET NOT NULL;`
+
+    `ALTER TABLE Students ALTER COLUMN address DROP NOT NULL;`
+
