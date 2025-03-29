@@ -32,3 +32,9 @@
 
     `ALTER TABLE musteriler RENAME COLUMN dogum_tarihi TO yas;`
 
+  * 4.Sütun Silme:
+    `ALTER TABLE tablo_adi DROP COLUMN sutun_adı;`
+
+    Örnek:
+    `ALTER TABLE musteriler DROP COLUMN yas;`
+
