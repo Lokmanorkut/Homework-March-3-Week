@@ -42,5 +42,20 @@
    * Temel Kullanımı:
      `UPDATE tablo_adi SET sutun1 = deger1, sutun2 = deger2 WHERE sart;`
 
-     Örnek
+     Örnek:
      `UPDATE musteriler SET isim = 'Ahmet', sehir = 'Ankara' WHERE id = 1;`
+
+     Tüm satırları Güncelleme:
+
+     `UPDATE musteriler SET sehir='İstanbul';`
+
+     Tüm satırların şehir sütunu "İstanbul" olarak değiştirilir.Eğer `WHERE` koşulu kullanılmazsa tüm kayıtlar güncellenmiş olur.
+
+
+* `DELETE`:Tablodan belirli verileri silmek için kullanılır.
+   *Temel Kullanımı:
+  `DELETE FROM tablo_adi WHERE sart;`
+
+  Örnek:
+
+  `DELETE FROM musteriler WHERE id = 1;`
