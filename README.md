@@ -28,3 +28,7 @@
   * 3.Sütunun Adını Değiştirme:
     `ALTER TABLE tablo_adi RENAME COLUMN eski_sutun_adı TO yeni_sutun_adı;`
 
+    Örnek:
+
+    `ALTER TABLE musteriler RENAME COLUMN dogum_tarihi TO yas;`
+
